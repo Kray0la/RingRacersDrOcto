@@ -5,35 +5,22 @@ SUBFOLDER="extra"
 # The first write into the loadmods.cfg file is done with > rather than >> to empty the file if it already exists
 # Rather than append to a previously generated loadmods.cfg
 
-# Priority (X)
-echo "// Priority (X)
-// As a rule of thumb, complex addons need to be loaded first
+# Priority (Y_)
+echo "// As a rule of thumb, complex addons need to be loaded first
+
 // Pizza Characters include any chars related to Pizza Tower/McPig's personal projects
 // Server characters include any other OCs from Doc Oc
 // SEGA Characters include any characters from SEGA, as well as fanmade OCs/AUs
 // Misc Characters is for everything else, including shitpost characters
-" > .loadmods.cfg
-for FILE in *; do
-	if [[ "$FILE" == "DY"* ]]; then
-		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
-	fi
-done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DY"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
-    fi
-done
 
-# Maps (M)
-echo "
-// Maps (R)" >> .loadmods.cfg
+// Priority (Y_)" > .loadmods.cfg
 for FILE in *; do
-	if [[ "$FILE" == "DR"* ]]; then
+	if [[ "$FILE" == "Y_D"* ]]; then
 		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
 	fi
 done
 for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DR"* ]]; then
+    if [[ "$FILE" == "${SUBFOLDER}/Y_D"* ]]; then
         echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
     fi
 done
@@ -48,6 +35,20 @@ for FILE in *; do
 done
 for FILE in "${SUBFOLDER}"/*; do
     if [[ "$FILE" == "${SUBFOLDER}/DC"* ]]; then
+        echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
+    fi
+done
+
+# Maps (M)
+echo "
+// Maps (R)" >> .loadmods.cfg
+for FILE in *; do
+	if [[ "$FILE" == "DR"* ]]; then
+		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
+	fi
+done
+for FILE in "${SUBFOLDER}"/*; do
+    if [[ "$FILE" == "${SUBFOLDER}/DR"* ]]; then
         echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
     fi
 done
@@ -81,16 +82,16 @@ for FILE in "${SUBFOLDER}"/*; do
     fi
 done
 
-# Miscellaneous (Z)
+# Miscellaneous (Z_)
 echo "
-// Miscellaneous (Z)" >> .loadmods.cfg
+// Miscellaneous (Z_)" >> .loadmods.cfg
 for FILE in *; do
-	if [[ "$FILE" == "DZ"* ]]; then
+	if [[ "$FILE" == "Z_D"* ]]; then
 		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
 	fi
 done
 for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DZ"* ]]; then
+    if [[ "$FILE" == "${SUBFOLDER}/Z_D"* ]]; then
         echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
     fi
 done
