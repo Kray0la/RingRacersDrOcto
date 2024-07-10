@@ -16,8 +16,10 @@ jobs:
 
       - name: check for changes
         run: git status
-      - name: stage changed files
-        run: git add .
+      - name: Commit Changes
+        run: |
+          git config --local user.name "JavierMarcosFer"
+          git add .
       - name: commit changed files
         run: git commit -m "Auto-updating .loadmods.cfg"
       - name: fetch from main
