@@ -1,0 +1,16 @@
+# Generate .loadmods.cfg file
+name: Generate loadmods file
+# Run script automatically on push or when manually activated
+on: [push, workflow_dispatch]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: ./generate.sh
