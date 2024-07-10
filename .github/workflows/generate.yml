@@ -17,7 +17,6 @@ jobs:
         run: |
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected, commiting and pushing"
-            echo "::set-output name=has_changes::true"
             git config --global user.name "${{ github.actor }}"
             git config --global user.email "${{ github.actor }}@users.noreply.github.com"
             git add .
@@ -26,5 +25,4 @@ jobs:
             git push origin HEAD:main
           else
             echo "No changes"
-            echo "::set-output name=has_changes::false"
           fi
