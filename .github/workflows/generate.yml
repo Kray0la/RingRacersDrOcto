@@ -10,7 +10,19 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
       - uses: actions/checkout@v4
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
+      
+      - name: Generate a new loadmods file
         run: bash generate.sh
+
+      - name: check for changes
+        run: git status
+      - name: Commit Changes
+        run: |
+          git config --local user.name "JavierMarcosFer"
+          git add .
+      - name: commit changed files
+        run: git commit -m "Auto-updating .loadmods.cfg"
+      - name: fetch from main
+        run: git fetch origin main
+      - name: push code to main
+        run: git push origin HEAD:main
