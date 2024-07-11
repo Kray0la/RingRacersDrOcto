@@ -12,6 +12,8 @@ Community pack for Ring Racers game nights.
 
 - Now go to Extras > Addons and load the `.loadconfig.cfg` file. This config file will instantaneously load all addons from our pack at once.
 
+- Optionally, go into the `extra` folder and load other addons you may like for this session (Combinator, WIP maps and characters, etc.)
+
 That's it. Now open up your server under the Online > Host Game tab and you're ready to race.
 
 ## Troubleshooting:
