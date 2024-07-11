@@ -5,7 +5,7 @@ SUBFOLDER="extra"
 # The first write into the loadmods.cfg file is done with > rather than >> to empty the file if it already exists
 # Rather than append to a previously generated loadmods.cfg
 
-# Priority (Y_)
+# Priority (A_)
 echo "// As a rule of thumb, complex addons need to be loaded first
 
 // Pizza Characters include any chars related to Pizza Tower/McPigs personal projects
@@ -13,14 +13,14 @@ echo "// As a rule of thumb, complex addons need to be loaded first
 // SEGA Characters include any characters from SEGA, as well as fanmade OCs/AUs
 // Misc Characters is for everything else, including shitpost characters
 
-// Priority (Y_)" > .loadmods.cfg
+// Priority (A_)" > .loadmods.cfg
 for FILE in *; do
-	if [[ "$FILE" == "Y_D"* ]]; then
+	if [[ "$FILE" == "A_D"* ]]; then
 		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
 	fi
 done
 for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/Y_D"* ]]; then
+    if [[ "$FILE" == "${SUBFOLDER}/A_D"* ]]; then
         echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
     fi
 done
