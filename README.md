@@ -1,7 +1,7 @@
 # Dr. Octopus's Ring Racers
 Community pack for Ring Racers game nights.
 
-## Hosting a server for Ring Racer
+## Hosting a server for Ring Racers
 - Go to https://github.com/Kray0la/RingRacersDrOcto and download all files listed under the link to your PC. The simplest way to do this is by clicking the green "Code" button around the top right, and then "Download ZIP". Make sure to redownload the pack regularly as it will be updated often.
 
 - Go to where your `ringracer.exe` file is located. In this directory you should also see a `ringconfig.cfg` file. Open this file with any text editor. 
@@ -39,3 +39,11 @@ An example name would be **DC_MyCharPack_v1.wad**, where here the letter *D indi
 If you have multiple types of content as listed above, simply put your prefixes in order as displayed. So, if you have an addon with *Race, Battle and Characters content*, you'd put **DRBC_VariousPack_V1.wad**.
 
 This system helps us to know in which order to load addons, as well as making organizing everything much easier.
+
+## For Internal Use
+**These prefixes are for internal use only**, and you do not need to worry about them when submitting addons or requesting changes to the pack. They exist to help enforce specific load orders when relevant, since more complex addons need to be loaded first.
+
+| Prefix | Description (For internal use only) |
+|---|---|
+| A_ | Priority (Loaded first) |
+| Z_ | Miscellaneous (Loaded last) |
