@@ -10,7 +10,7 @@ Community pack for Ring Racers game nights.
 
 - Open up Ring Racers. Go to Options > Server Settings and make sure both ``Max Connections`` and ``Max Players`` are both set to 16.
 
-- Now go to the Addons page under Extras and load the `.loadconfig.cfg` file. This config file will instantaneously load all addons from our pack at once.
+- Now go to Extras > Addons and load the `.loadconfig.cfg` file. This config file will instantaneously load all addons from our pack at once.
 
 That's it. Now open up your server under the Online > Host Game tab and you're ready to race.
 
