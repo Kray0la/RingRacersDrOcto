@@ -38,7 +38,7 @@ An example name would be `DC_MyCharPack_v1.wad`, where here the letter **D indic
 
 If you have multiple types of content as listed above, simply put your prefixes in order as displayed. So, if you have an addon with **Race, Battle and Characters** content, you'd put `DRBC_VariousPack_V1.wad`.
 
-This system helps us to know in which order to load addons, as well as making organizing everything much easier.
+This system helps us to know in which order to load addons, and makes organizing everything much easier for us.
 
 ## For Internal Use
 **These prefixes are for internal use only**, and you do not need to worry about them when submitting addons or requesting changes to the pack. They exist to help enforce specific load orders when relevant, since more complex addons need to be loaded first.
