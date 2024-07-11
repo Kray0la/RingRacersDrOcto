@@ -34,9 +34,9 @@ Any addons you'd like to be added to the pact, yours or otherwise, please post t
 | L | Lua                                 |
 | S | Sound                               |
 
-An example name would be **DC_MyCharPack_v1.wad**, where here the letter *D indicates it is a Ring Racer Addon*, and the letter *C indicates that it has a playable character in it*.
+An example name would be `DC_MyCharPack_v1.wad`, where here the letter **D indicates it is a Ring Racer Addon**, and the letter **C indicates that it has a playable character in it**.
 
-If you have multiple types of content as listed above, simply put your prefixes in order as displayed. So, if you have an addon with *Race, Battle and Characters content*, you'd put **DRBC_VariousPack_V1.wad**.
+If you have multiple types of content as listed above, simply put your prefixes in order as displayed. So, if you have an addon with **Race, Battle and Characters** content, you'd put `DRBC_VariousPack_V1.wad`.
 
 This system helps us to know in which order to load addons, as well as making organizing everything much easier.
 
