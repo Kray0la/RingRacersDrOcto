@@ -16,6 +16,7 @@ That's it. Now open up your server under the Online > Host Game tab and you're r
 
 ## Troubleshooting:
 - Certain characters/followers are not showing up!
+
 This is likely due to the game prioritising an older version from one of our repacks. For this, you must delete the duplicate addons affected. An easy and dirty fix for this is to simply completely delete your `downloads` folder.
 
 ## Submitting to the pack
