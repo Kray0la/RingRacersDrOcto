@@ -10,12 +10,12 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so the job can access it
       - uses: actions/checkout@v4
+        with:
+          token: ${{secrets.MY_TOKEN}}
       
       - name: Generate a new loadmods file
         run: bash generate.sh
       - name: Commit and push changes
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
           if [[ -n "$(git diff --exit-code)" ]]; then
             echo "Changes detected, commiting and pushing"
