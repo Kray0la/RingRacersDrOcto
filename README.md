@@ -21,7 +21,7 @@ That's it. Now open up your server under the Online > Host Game tab and you're r
 This is likely due to the game prioritising an older version from one of our repacks. For this, you must delete the duplicate addons affected. An easy and dirty fix for this is to simply completely delete your `downloads` folder.
 
 ## Submitting to the pack
-Any addons you'd like to be added to the pact, yours or otherwise, please post them into the Ring Racers Addons channel. **If you do, please keep the following guidelines in mind:**
+Any addons you'd like to be added to the pack, yours or otherwise, please post them into the Ring Racers Addons channel. **If you do, please keep the following guidelines in mind:**
 - **If you want basic adjustments that are changeable just via the S_SKIN text file** (stats, rivals, preferred colour etc.), post your wanted changes in the thread and they will be applied on our end. *Please be as detailed as you can* (For example, give us the internal name of any rivals you might want added).
 - **If you are adjusting sprites or sounds**, please resend the entire WAD file.
 - **If you're submtting a custom addon**, your WAD must have the naming conventions set out by the SRB2 Message Board. This includes a prefix at the beginning of your file name to indicate what type of addon you are submitting. The most relevant for our server are as follows:
@@ -43,6 +43,13 @@ If you have multiple types of content as listed above, simply put your prefixes 
 This system helps us to know in which order to load addons, and makes organizing everything much easier for us.
 
 ## For Internal Use
+
+### The generate.sh script
+**This script will generate a new loadmods.cfg file that you can execute locally.**  It will take a look at all names in the pack, and automatically generate a new `loadmods.cfg` file based on the addon names in the pack. Addons must be respecting the naming conventions as described above, otherwise they WILL be ignored by the script!
+
+If there are addons you want the script to ignore intentionally, put them into the `extras` folder. Upon executing `generate.sh`, they will not be put into the cfg file.
+
+### Load order prefix
 **These prefixes are for internal use only**, and you do not need to worry about them when submitting addons or requesting changes to the pack. They exist to help enforce specific load orders when relevant, since more complex addons need to be loaded first.
 
 | Prefix | Description (For internal use only) |
