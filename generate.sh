@@ -15,14 +15,14 @@ echo "// As a rule of thumb, complex addons need to be loaded first
 
 // Priority (A_)" > .loadmods.cfg
 for FILE in *; do
-	if [[ "$FILE" == "A_D"* ]]; then
+	if [[ "$FILE" == A?_D* ]]; then
 		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
 	fi
 done
 for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/A_D"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
-    fi
+	if [[ "$FILE" == ${SUBFOLDER}/A?_D* ]]; then
+		echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
+	fi
 done
 
 # Characters (C)
