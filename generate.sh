@@ -82,6 +82,20 @@ for FILE in "${SUBFOLDER}"/*; do
     fi
 done
 
+# SOC (D)
+echo "
+// SOC (D)" >> .loadmods.cfg
+for FILE in *; do
+	if [[ "$FILE" == "D_"* ]]; then
+		echo -e "addfile \"addons/$FILE\"" >> .loadmods.cfg
+	fi
+done
+for FILE in "${SUBFOLDER}"/*; do
+    if [[ "$FILE" == "${SUBFOLDER}/D_"* ]]; then
+        echo -e "// addfile \"addons/$FILE\"" >> .loadmods.cfg
+    fi
+done
+
 # Miscellaneous (Z_)
 echo "
 // Miscellaneous (Z_)" >> .loadmods.cfg
