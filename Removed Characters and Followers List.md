@@ -1,0 +1,94 @@
+Characters removed: 
+In A2_DC_CartoonChars
+Gwimbly
+Thomas 
+Strong Bad
+
+In A2_DC GameChars: 
+WheelieRider
+Zangief
+Ccmo
+Masan
+Sunny
+Rammy
+Duck Game
+DonkeyKong
+Creeper
+Froggy Car
+PacMan
+Sans
+
+A2_DC_SegaChars
+Espio (Resprite)
+
+DC BlastProcessingPack
+Alef
+
+ExmoSMKCharPack
+- every character except DK jr
+(mario, luigi, princess, yoshi, koopatroopa, toad)
+
+DC FazbearFrenzies
+Bonnie, chica, foxy
+
+DC SaturnSRacers
+Saturn, Fukua, Spark,Fark,Forecast,Josuke
+Okayasu,CDsonic,Noelvermillion,Ragna
+
+EmilianosJerkCollection
+bubsy, metaworm
+
+Robpack
+Lexa
+
+DCFL girlpack:
+Juri, Papermario, Lucas, Kumatora, Aerith, witch kiriko
+
+DCFL JumperPak
+earless, kangagunner, marie, haruko
+
+KelPack
+Diggle, Redwood, Laharl,Eunie
+
+AaronPack
+wario, shantae, jacko
+
+CombiLockOn
+Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead
+
+Removed Followers:
+FazbearFrenzies Followers
+cupcakes and puppet
+
+FriendInterblend
+WilloWisp,NasuGrave,DralinFlore
+
+DCF_EmilianosJerkCollection-v1.1
+shanghai
+
+DCF_Robpack_v1.0
+annalynn
+
+DCFL_CombiLockOn-v2
+
+blues,chuck,bomb,matilda,
+hal,terence,bubbles,
+stella,ice,brushlady,reiplush,penpen,
+markofcommunication,escape blimp
+
+DCFL_girlpack_V5
+Chadley,chibiaerith
+
+DCFL_JUMPERPAK-v2
+beau,yaov,dancingbunko,takkun
+vespadestroyed,miru
+
+DCFL_KelPack_v3.1
+Miurasan,Pod 042,Bell,Hakurasan,Redz Jr
+
+
+
+
+
+
+
