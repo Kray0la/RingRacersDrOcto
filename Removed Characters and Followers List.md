@@ -18,6 +18,7 @@ Froggy Car
 PacMan
 Sans
 
+
 A2_DC_SegaChars
 Espio (Resprite)
 
@@ -30,6 +31,9 @@ ExmoSMKCharPack
 
 DC FazbearFrenzies
 Bonnie, chica, foxy
+
+DC_Guypack_v3
+Jotaro Kujo
 
 DC SaturnSRacers
 Saturn, Fukua, Spark,Fark,Forecast,Josuke
