@@ -45,8 +45,9 @@ bubsy, metaworm
 Robpack
 Lexa
 
-DCFL girlpack:
-Juri, Papermario, Lucas, Kumatora, Aerith, witch kiriko
+DCFL girlpack V6:
+ Papermario, Lucas, Kumatora, Aerith, witch kiriko, Gwenpool, Barret, Aerith CS
+Cloud
 
 DCFL JumperPak
 earless, kangagunner, marie, haruko
@@ -58,7 +59,7 @@ AaronPack
 wario, shantae, jacko
 
 CombiLockOn
-Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead
+Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami
 
 Removed Followers:
 FazbearFrenzies Followers
@@ -80,8 +81,8 @@ hal,terence,bubbles,
 stella,ice,brushlady,reiplush,penpen,
 markofcommunication,escape blimp
 
-DCFL_girlpack_V5
-Chadley,chibiaerith
+DCFL_girlpack_V6
+Chadley,chibiaerith, ericbound, JENOVA, plush aerith
 
 DCFL_JUMPERPAK-v2
 beau,yaov,dancingbunko,takkun
