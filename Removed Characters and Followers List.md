@@ -18,6 +18,7 @@ Froggy Car
 PacMan
 Sans
 
+GouKirimi moved to Extras folder
 
 A2_DC_SegaChars
 Espio (Resprite)
@@ -53,7 +54,7 @@ DCFL JumperPak
 earless, kangagunner, marie, haruko
 
 KelPack
-Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4)
+Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4), Toad
 
 AaronPack
 wario, shantae, jacko
