@@ -53,7 +53,7 @@ DCFL JumperPak
 earless, kangagunner, marie, haruko
 
 KelPack
-Diggle, Redwood, Laharl,Eunie
+Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4)
 
 AaronPack
 wario, shantae, jacko
@@ -61,7 +61,12 @@ wario, shantae, jacko
 CombiLockOn
 Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami
 
+
+
 Removed Followers:
+
+
+
 FazbearFrenzies Followers
 cupcakes and puppet
 
@@ -88,8 +93,9 @@ DCFL_JUMPERPAK-v2
 beau,yaov,dancingbunko,takkun
 vespadestroyed,miru
 
-DCFL_KelPack_v3.1
-Miurasan,Pod 042,Bell,Hakurasan,Redz Jr
+DCFL_KelPack_v5
+Miurasan,Pod 042,Bell,Hakurasan,Redz Jr, Eunies The Bus, Gorilla, DQ Lips,
+Mr Mogan
 
 
 
