@@ -17,8 +17,7 @@ Creeper
 Froggy Car
 PacMan
 Sans
-
-GouKirimi moved to Extras folder
+Moved to Extras: Samus, PJ, GouKirimi 
 
 A2_DC_SegaChars
 Espio (Resprite)
@@ -57,7 +56,7 @@ KelPack
 Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4), Toad
 
 AaronPack
-wario, shantae, jacko
+wario, shantae, jacko, Captain Falcon
 
 CombiLockOn
 Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami
