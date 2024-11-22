@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SUBFOLDER="extra"
-MAX=7
+MAX=6
 
 # This script is meant to generate a ".loadmods.cfg" file cut into several parts that can be loaded a little at a time.
 # Such file is consequently much less pretty to look at than its regular counterpart.
@@ -30,17 +30,6 @@ for FILE in *; do
 		fi
 	fi
 done
-for FILE in "${SUBFOLDER}"/*; do
-	if [[ "$FILE" == ${SUBFOLDER}/A?_D* ]]; then
-		echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-	fi
-done
 
 # Characters (C)
 for FILE in *; do
@@ -53,17 +42,6 @@ for FILE in *; do
 			part=$((part+1))
 		fi
 	fi
-done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DC"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
 done
 
 # Maps (M)
@@ -78,17 +56,6 @@ for FILE in *; do
 		fi
 	fi
 done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DR"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
-done
 
 # Followers (F)
 for FILE in *; do
@@ -102,16 +69,6 @@ for FILE in *; do
 		fi
 	fi
 done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DF"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
 done
 
 
@@ -127,17 +84,6 @@ for FILE in *; do
 		fi
 	fi
 done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/DL"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
-done
 
 # SOC (D)
 for FILE in *; do
@@ -151,17 +97,6 @@ for FILE in *; do
 		fi
 	fi
 done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/D_"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
-done
 
 # Miscellaneous (Z_)
 for FILE in *; do
@@ -174,15 +109,4 @@ for FILE in *; do
 			part=$((part+1))
 		fi
 	fi
-done
-for FILE in "${SUBFOLDER}"/*; do
-    if [[ "$FILE" == "${SUBFOLDER}/Z_D"* ]]; then
-        echo -e "// addfile \"addons/$FILE\"" >> "loadserver/.loadserver"${part}".cfg"
-		i=$((i+1))
-		
-		if [[ i -gt MAX ]]; then
-			i=0
-			part=$((part+1))
-		fi
-    fi
 done
