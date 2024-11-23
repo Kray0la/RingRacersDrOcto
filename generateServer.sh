@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SERVERFOLDER="loadserver"
-MAX=7
+MAX=8
 
 # This script is meant to generate a ".loadmods.cfg" file cut into several parts that can be loaded a little at a time.
 # Such file is consequently much less pretty to look at than its regular counterpart.
@@ -114,6 +114,7 @@ if [[ -f ".loadservermaster.cfg" ]]; then
     rm -rf ".loadservermaster.cfg"
 fi
 
-for FILE in "${SERVERFOLDER}"/*; do
-    echo -e "// exec $FILE" >> ".loadservermaster.cfg"
+# Loop through files in the directory
+for file in "$SERVERFOLDER"/.*; do
+	echo "exec $(basename "$file")" >> ".loadservermaster.cfg"
 done
