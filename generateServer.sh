@@ -110,7 +110,7 @@ for FILE in *; do
 	fi
 done
 
-if [ if ( -f ".loadservermaster.cfg" ) then ]; then
+if [[ -f ".loadservermaster.cfg" ]]; then
     rm -rf ".loadservermaster.cfg"
 fi
 
