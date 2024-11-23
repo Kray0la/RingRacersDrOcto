@@ -69,7 +69,6 @@ for FILE in *; do
 		fi
 	fi
 done
-done
 
 
 # LUA (L)
