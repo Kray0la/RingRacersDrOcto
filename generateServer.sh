@@ -9,11 +9,11 @@ MAX=7
 # This is neccesary because using the exec console command on a large enough loadmods file will overwhelm the game's
 # command buffer, making it so only the first few mods in the list are loaded.
 
-if [ -d "${SUBFOLDER}" ]; then
-    rm -rf "${SUBFOLDER}"
+if [ -d "${SERVERFOLDER}" ]; then
+    rm -rf "${SERVERFOLDER}"
 fi
 
-mkdir "${SUBFOLDER}"
+mkdir "${SERVERFOLDER}"
 
 part=0
 i=0
