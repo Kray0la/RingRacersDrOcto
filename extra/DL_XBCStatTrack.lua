@@ -67,11 +67,11 @@ end)
 -- In the intermission screen, write results to file
 addHook("IntermissionThinker", function( )
 	if cv_xbcStatTrackToggle.value and (isserver or not cv_xbcStatTrackHostOnly.value) and (netgame or not cv_xbcStatTrackNetgameOnly.value)
-		print("Record!")
 		local file = io.openlocal("xbcStatTrack.csv", "a")
 		for player in players.iterate do
 			if not player.xbcStatsLogged
 				player.xbcStatsLogged = true
+				-- Gather data
 				local playerId = player.publickey
 				local playerName = player.name
 				local skinName = skins[player.skin].name
@@ -79,10 +79,11 @@ addHook("IntermissionThinker", function( )
 				local lapBonus = tostring(player.xbcLapBonus)
 				local numlaps = tostring(numlaps)
 				-- Put everything together to build a string
-				local infoString = playerId..","..playerName..","..skinName..","..finalPos..","..lapBonus..numlaps.."\n"
+				local infoString = playerId..","..playerName..","..skinName..","..finalPos..","..lapBonus..","..numlaps.."\n"
 				file:write(infoString)
 			end
 		end
 		file:close()
 	end
 end)
+
