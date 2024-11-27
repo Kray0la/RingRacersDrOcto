@@ -3,7 +3,7 @@
 local cv_xbcStatTrackToggle = CV_RegisterVar({
 	name = "xbcStatTrackToggle",
 	defaultvalue = "On",
-	flags = CV_NETVAR,
+	flags = 0,
 	description = "Determines whether to record various player statistics at the end of each race.",
 	possiblevalue = CV_OnOff
 })
@@ -11,7 +11,7 @@ local cv_xbcStatTrackToggle = CV_RegisterVar({
 local cv_xbcStatTrackNetgameOnly = CV_RegisterVar({
 	name = "xbcStatTrackNetgameOnly",
 	defaultvalue = "Yes",
-	flags = CV_NETVAR,
+	flags = 0,
 	description = "Determines whether xbcStatTrack should record stats only in netgames.",
 	possiblevalue = CV_YesNo
 })
@@ -19,7 +19,7 @@ local cv_xbcStatTrackNetgameOnly = CV_RegisterVar({
 local cv_xbcStatTrackHostOnly = CV_RegisterVar({
 	name = "xbcStatTrackHostOnly",
 	defaultvalue = "Yes",
-	flags = CV_NETVARs,
+	flags = 0,
 	description = "Determines whether xbcStatTrack should record stats only if you are the server host.",
 	possiblevalue = CV_YesNo
 })
@@ -36,7 +36,7 @@ end)
 addHook("ThinkFrame", function()
 	-- Whenever a player crosses the finish line...
 	for player in players.iterate do
-		if player.xbcStatsLogged ~= nil and player.laps > player.xbcPrevLap
+		if player.xbcPrevLap ~= nil and player.laps > player.xbcPrevLap
 			player.xbcPrevLap = player.laps
 			
 			-- Check this wasn't just the start of the race
@@ -59,6 +59,7 @@ addHook("ThinkFrame", function()
 						player.xbcLapBonus = player.xbcLapBonus + 1
 					end
 				end
+				print(player.xbcLapBonus)
 			end
 		end
 	end
@@ -68,6 +69,7 @@ end)
 addHook("IntermissionThinker", function( )
 	if cv_xbcStatTrackToggle.value and (isserver or not cv_xbcStatTrackHostOnly.value) and (netgame or not cv_xbcStatTrackNetgameOnly.value)
 		-- Determine where to open the file
+		-- Gotta open the right one because of permissions
 		local file = nil
 		if isserver
 			file = io.openlocal("xbcStatTrack.csv", "a")
@@ -77,17 +79,19 @@ addHook("IntermissionThinker", function( )
 		
 		-- Record data
 		for player in players.iterate do
-			if player.xbcStatsLogged ~= nil and not player.xbcStatsLogged
+			-- Checking for explicitly false lets us handle spectators who never spawned to have this variable initialized
+			if player.xbcStatsLogged == false
 				player.xbcStatsLogged = true
-				-- Gather data
-				local playerId = player.publickey
-				local playerName = player.name
-				local skinName = skins[player.skin].name
-				local finalPos = tostring(player.position)
-				local lapBonus = tostring(player.xbcLapBonus)
-				local numlaps = tostring(numlaps)
-				-- Put everything together to build a string
-				local infoString = playerId..","..playerName..","..skinName..","..finalPos..","..lapBonus..","..numlaps.."\n"
+				
+				local playerId = player.publickey or "NA"
+				local playerName = player.name or "NA"
+				local skinName = skins[player.skin].name or "NA"
+				local finalPos = tostring(player.position) or "NA"
+				local lapBonus = tostring(player.xbcLapBonus) or "NA"
+				local numlaps = tostring(numlaps) or "NA"
+				local mapname = mapheaderinfo[gamemap].lvlttl or "NA"
+				
+				local infoString = playerId..","..playerName..","..skinName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
 				file:write(infoString)
 			end
 		end
