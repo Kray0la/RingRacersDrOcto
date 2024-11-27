@@ -36,8 +36,30 @@ end)
 addHook("ThinkFrame", function()
 	-- Whenever a player crosses the finish line...
 	for player in players.iterate do
-		if player.xbcStatsLogged == nil
-			print("nope")
+		if player.xbcStatsLogged == nil and player.laps > player.xbcPrevLap
+			player.xbcPrevLap = player.laps
+			
+			-- Check this wasn't just the start of the race
+			if player.laps > 1
+			
+				-- +2 lap bonus for 1st place
+				if player.position == 1
+					player.xbcLapBonus = player.xbcLapBonus + 2
+					
+				-- +1 lap bonus for top half
+				else
+					-- Check player count
+					local playerCount = 0
+					for i in players.iterate do
+						playerCount = playerCount + 1
+					end
+					
+					-- Award lap bonus
+					if (player.position * 2) <= playerCount
+						player.xbcLapBonus = player.xbcLapBonus + 1
+					end
+				end
+			end
 		end
 	end
 end)
