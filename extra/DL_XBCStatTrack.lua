@@ -36,8 +36,8 @@ end)
 addHook("ThinkFrame", function()
 	-- Whenever a player crosses the finish line...
 	for player in players.iterate do
-		if player.xbcStatsLogged ~= nil
-			print(ok!)
+		if player.xbcStatsLogged == nil
+			print("nope")
 		end
 	end
 end)
