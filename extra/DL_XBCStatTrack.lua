@@ -67,7 +67,15 @@ end)
 -- In the intermission screen, write results to file
 addHook("IntermissionThinker", function( )
 	if cv_xbcStatTrackToggle.value and (isserver or not cv_xbcStatTrackHostOnly.value) and (netgame or not cv_xbcStatTrackNetgameOnly.value)
-		local file = io.openlocal("/client/xbcStatTrack.csv", "a")
+		-- Determine where to open the file
+		local file = nil
+		if isserver
+			file = io.openlocal("xbcStatTrack.csv", "a")
+		else
+			file = io.openlocal("/client/xbcStatTrack.csv", "a")
+		end
+		
+		-- Record data
 		for player in players.iterate do
 			if player.xbcStatsLogged ~= nil and not player.xbcStatsLogged
 				player.xbcStatsLogged = true
