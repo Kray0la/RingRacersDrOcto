@@ -72,7 +72,7 @@ addHook("IntermissionThinker", function( )
 		if isserver
 			file = io.openlocal("xbcStatTrack.csv", "a")
 		else
-			file = io.openlocal("/client/xbcStatTrack.csv", "a")
+			file = io.openlocal("client/xbcStatTrack.csv", "a")
 		end
 		
 		-- Record data
