@@ -36,7 +36,7 @@ end)
 addHook("ThinkFrame", function()
 	-- Whenever a player crosses the finish line...
 	for player in players.iterate do
-		if player.laps > player.xbcPrevLap
+		if player ~= server and player.laps > player.xbcPrevLap
 			player.xbcPrevLap = player.laps
 			
 			-- Check this wasn't just the start of the race
