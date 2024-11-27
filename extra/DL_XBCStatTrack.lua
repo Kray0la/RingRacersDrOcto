@@ -36,7 +36,8 @@ end)
 addHook("ThinkFrame", function()
 	-- Whenever a player crosses the finish line...
 	for player in players.iterate do
-		if player.xbcStatsLogged ~= nil and player.laps > player.xbcPrevLap
+		if player.xbcStatsLogged ~= nil
+			if player.laps > player.xbcPrevLap
 				player.xbcPrevLap = player.laps
 				
 				-- Check this wasn't just the start of the race
@@ -70,7 +71,7 @@ addHook("IntermissionThinker", function( )
 	if cv_xbcStatTrackToggle.value and (isserver or not cv_xbcStatTrackHostOnly.value) and (netgame or not cv_xbcStatTrackNetgameOnly.value)
 		local file = io.openlocal("/client/xbcStatTrack.csv", "a")
 		for player in players.iterate do
-			if player.xbcStatsLogged ~= nil and not player.xbcStatsLogged
+			if player.xbcStatsLoggednot player.xbcStatsLogged
 				player.xbcStatsLogged = true
 				-- Gather data
 				local playerId = player.publickey
