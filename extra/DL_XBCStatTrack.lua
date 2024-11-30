@@ -79,7 +79,7 @@ addHook("IntermissionThinker", function( )
 		
 		-- Record data
 		for player in players.iterate do
-			-- Checking for explicitly false lets us handle spectators who never spawned to have this variable initialized
+			-- Checking for explicitly false lets us handle spectators who never spawned to have this variable initialized (i.e. spectators)
 			if player.xbcStatsLogged == false
 				player.xbcStatsLogged = true
 				
