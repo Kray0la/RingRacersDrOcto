@@ -17,6 +17,10 @@ Creeper
 Froggy Car
 PacMan
 Sans
+SweetTooth
+DuckHunt Dog
+Pooka
+Servbot
 Moved to Extras: Samus, PJ, GouKirimi 
 
 A2_DC_SegaChars
@@ -59,7 +63,7 @@ AaronPack
 wario, shantae, jacko, Captain Falcon
 
 CombiLockOn
-Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami
+Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami, Yumetaro
 
 
 
