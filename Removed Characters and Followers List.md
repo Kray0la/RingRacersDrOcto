@@ -21,8 +21,10 @@ SweetTooth
 DuckHunt Dog
 Pooka
 Servbot
-Moved to Extras: Samus, PJ, GouKirimi 
 
+Moved to Extras: 
+Samus, PJ, GouKirimi 
+Stocking, Marios Dad, Amitie, 2017X Sonic
 A2_DC_SegaChars
 Espio (Resprite)
 
@@ -65,6 +67,9 @@ wario, shantae, jacko, Captain Falcon
 CombiLockOn
 Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami, Yumetaro
 
+DCFL_BluPak-v1
+omochao, ashe
+
 
 
 Removed Followers:
@@ -101,6 +106,9 @@ DCFL_KelPack_v5
 Miurasan,Pod 042,Bell,Hakurasan,Redz Jr, Eunies The Bus, Gorilla, DQ Lips,
 Mr Mogan
 
+DCFL_BluPak-v1
+
+red, green, purple, yellow puyo
 
 
 
