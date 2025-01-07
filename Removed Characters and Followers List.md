@@ -59,7 +59,7 @@ DCFL JumperPak
 earless, kangagunner, marie, haruko
 
 KelPack
-Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4), Toad
+Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4), Toad, Shovel Knight
 
 AaronPack
 wario, shantae, jacko, Captain Falcon
