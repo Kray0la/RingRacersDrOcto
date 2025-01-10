@@ -86,12 +86,13 @@ addHook("IntermissionThinker", function( )
 				local playerId = player.publickey or "NA"
 				local playerName = player.name or "NA"
 				local skinName = skins[player.skin].name or "NA"
+				local colorName = player.skincolor or "NA"
 				local finalPos = tostring(player.position) or "NA"
 				local lapBonus = tostring(player.xbcLapBonus) or "NA"
 				local numlaps = tostring(numlaps) or "NA"
 				local mapname = mapheaderinfo[gamemap].lvlttl or "NA"
 				
-				local infoString = playerId..","..playerName..","..skinName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
+				local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
 				file:write(infoString)
 			end
 		end
