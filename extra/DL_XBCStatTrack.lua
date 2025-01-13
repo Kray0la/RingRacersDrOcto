@@ -59,7 +59,6 @@ addHook("ThinkFrame", function()
 						player.xbcLapBonus = player.xbcLapBonus + 1
 					end
 				end
-				print(player.xbcLapBonus)
 			end
 		end
 	end
@@ -79,14 +78,14 @@ addHook("IntermissionThinker", function( )
 		
 		-- Record data
 		for player in players.iterate do
-			-- Checking for explicitly false lets us handle spectators who never spawned to have this variable initialized (i.e. spectators)
+			-- Checking for explicitly false lets us handle players who never spawned to have this variable initialized (i.e. spectators)
 			if player.xbcStatsLogged == false
 				player.xbcStatsLogged = true
 				
 				local playerId = player.publickey or "NA"
 				local playerName = player.name or "NA"
 				local skinName = skins[player.skin].name or "NA"
-				local colorName = player.skincolor or "NA"
+				local colorName = R_GetNameByColor(player.skincolor) or "NA"
 				local finalPos = tostring(player.position) or "NA"
 				local lapBonus = tostring(player.xbcLapBonus) or "NA"
 				local numlaps = tostring(numlaps) or "NA"
