@@ -50,8 +50,10 @@ addHook("ThinkFrame", function()
 				else
 					-- Check player count
 					local playerCount = 0
-					for i in players.iterate do
-						playerCount = playerCount + 1
+					for player in players.iterate do
+						if player.spectator
+							playerCount = playerCount + 1
+						end
 					end
 					
 					-- Award lap bonus
@@ -80,7 +82,7 @@ addHook("IntermissionThinker", function( )
 		for player in players.iterate do
 			-- Collect all needed info, format it into a new line and write to file.
 			-- Checking for explicitly false lets us handle players who never spawned to have this variable initialized (i.e. spectators)
-			if player.xbcStatsLogged == false
+			if player.xbcStatsLogged == false and not player.spectator
 				player.xbcStatsLogged = true
 				
 				local playerId = player.publickey or "NA"
