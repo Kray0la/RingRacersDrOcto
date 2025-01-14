@@ -70,6 +70,10 @@ Ashura,Speedy ,Weegee,Slugcat,goldenfreddyhead, Rei Ayami, Yumetaro
 DCFL_BluPak-v1
 omochao, ashe
 
+DCFL_SharkGuy_pack_v5.0
+martzy, shark, gogo, kaiser greedy, sunny 
+
+
 
 
 Removed Followers:
@@ -109,6 +113,9 @@ Mr Mogan
 DCFL_BluPak-v1
 
 red, green, purple, yellow puyo
+
+DCFL_SharkGuy_pack_v5.0
+dimby, rotobaga, sound the animal, oruto 
 
 
 
