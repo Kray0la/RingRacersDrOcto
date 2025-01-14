@@ -45,20 +45,23 @@ addHook("ThinkFrame", function()
 				-- +2 lap bonus for 1st place
 				if player.position == 1
 					player.xbcLapBonus = player.xbcLapBonus + 2
+					print(player.name.." +2")
 					
 				-- +1 lap bonus for top half
 				else
 					-- Check player count
 					local playerCount = 0
 					for player in players.iterate do
-						if player.spectator
+						if not player.spectator
 							playerCount = playerCount + 1
 						end
 					end
+					print(playerCount.." players in the track.")
 					
 					-- Award lap bonus
-					if (player.position * 2) <= playerCount
+					if (player.position * 2) - 1 <= playerCount
 						player.xbcLapBonus = player.xbcLapBonus + 1
+						print(player.name.." +1")
 					end
 				end
 			end
@@ -79,8 +82,10 @@ addHook("IntermissionThinker", function( )
 		end
 		
 		-- Record data
+		-- We want to write the map name only once
+		local mapNameLogged = false
 		for player in players.iterate do
-			-- Collect all needed info, format it into a new line and write to file.
+			-- Collect all needed info.
 			-- Checking for explicitly false lets us handle players who never spawned to have this variable initialized (i.e. spectators)
 			if player.xbcStatsLogged == false and not player.spectator
 				player.xbcStatsLogged = true
@@ -92,10 +97,19 @@ addHook("IntermissionThinker", function( )
 				local finalPos = tostring(player.position) or "NA"
 				local lapBonus = tostring(player.xbcLapBonus) or "NA"
 				local numlaps = tostring(numlaps) or "NA"
-				local mapname = mapheaderinfo[gamemap].lvlttl or "NA"
 				
-				local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
-				file:write(infoString)
+				-- Get map name, which may have the suffix "Zone" appended at the end.
+				local mapname = G_BuildMapTitle(gamemap) or "NA"
+				
+				-- Compile all collected info into one line and write to file
+				if mapNameLogged
+					local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps.."\n"
+					file:write(infoString)
+				else
+					mapNameLogged = true
+					local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
+					file:write(infoString)
+				end
 			end
 		end
 		file:close()
