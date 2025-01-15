@@ -45,7 +45,6 @@ addHook("ThinkFrame", function()
 				-- +2 lap bonus for 1st place
 				if player.position == 1
 					player.xbcLapBonus = player.xbcLapBonus + 2
-					print(player.name.." +2")
 					
 				-- +1 lap bonus for top half
 				else
@@ -56,12 +55,10 @@ addHook("ThinkFrame", function()
 							playerCount = playerCount + 1
 						end
 					end
-					print(playerCount.." players in the track.")
 					
 					-- Award lap bonus
 					if (player.position * 2) - 1 <= playerCount
 						player.xbcLapBonus = player.xbcLapBonus + 1
-						print(player.name.." +1")
 					end
 				end
 			end
@@ -90,16 +87,15 @@ addHook("IntermissionThinker", function( )
 			if player.xbcStatsLogged == false and not player.spectator
 				player.xbcStatsLogged = true
 				
-				local playerId = player.publickey or "NA"
-				local playerName = player.name or "NA"
-				local skinName = skins[player.skin].name or "NA"
-				local colorName = R_GetNameByColor(player.skincolor) or "NA"
-				local finalPos = tostring(player.position) or "NA"
-				local lapBonus = tostring(player.xbcLapBonus) or "NA"
-				local numlaps = tostring(numlaps) or "NA"
-				
-				-- Get map name, which may have the suffix "Zone" appended at the end.
-				local mapname = G_BuildMapTitle(gamemap) or "NA"
+				local playerId = player.publickey or "NA"						-- Unique player ID attached to each save file. Helps track players even if they change names.
+				local playerName = player.name or "NA"							-- Player name.
+				local skinName = skins[player.skin].name or "NA"				-- Chosen character.
+				local colorName = R_GetNameByColor(player.skincolor) or "NA"	-- Chosen color.
+				local finalPos = tostring(player.position) or "NA"				-- Final placement.
+				local lapBonus = tostring(player.xbcLapBonus) or "NA"			-- Lap bonus.
+				local numlaps = tostring(numlaps) or "NA"						-- Number of laps, used to calculate total possible lap bonus.
+				local mapname = G_BuildMapTitle(gamemap) or "NA" 				-- Map name.
+				local isEncore = tostring(encoremode) or "NA"					-- Encore mode.
 				
 				-- Compile all collected info into one line and write to file
 				if mapNameLogged
@@ -107,7 +103,7 @@ addHook("IntermissionThinker", function( )
 					file:write(infoString)
 				else
 					mapNameLogged = true
-					local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps..","..mapname.."\n"
+					local infoString = playerId..","..playerName..","..skinName..","..colorName..","..finalPos..","..lapBonus..","..numlaps..","..mapname..","..isEncore.."\n"
 					file:write(infoString)
 				end
 			end
