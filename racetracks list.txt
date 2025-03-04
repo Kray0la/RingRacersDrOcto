@@ -1,0 +1,302 @@
+This is for people maintaining the pack
+It is a list of all cups and tracks
+
+It will list tracks that should be removed (in case an update happens and the
+track needs to be removed again) 
+
+DR_BigOMaps_v2
+
+ParadiseHill
+SeasideHill
+
+DR_CASTrackPak1_V4.0.3_edited
+
+BreezyVillage
+DelfinoCoast
+DolphinTemple
+FrutigerAeropolis
+HoverCity
+
+
+Removed: DonburiSkyway, SaturnStarway
+
+DR_CASTrackPak2_V4.0.3
+
+SkyHarbor
+SpiralHill
+
+DR_DawnstarGarden
+
+KP_DawnstarGarden
+
+DR_FrostMaps
+
+LeafForest
+HotCrater
+IceParadise
+AquariumPark
+
+DR_GammaPack
+
+Jing
+Monument
+
+DR_LOGMAPS_v1
+
+CHEMCHATEAU
+
+DR_MaizeValley_v1
+
+MaizeValley
+
+DR_Spindashpak_RE-PAK_V1.3a
+
+JADEGARTEN
+FOILAGEFURN
+LaunchBase
+
+Removed: VERMILLIONRIG
+
+DR_SubsonicCup_V2_edited
+
+SBS_CircuitCentral
+SBS_FloodArea
+SBS_TourmalineTerrain
+
+Removed: Bubblegum, SBS_SolarStation
+
+DR_YellowCrocodileCup-v1
+
+YTC_BoulderstoneAlpines
+YTC_Chartreuse_Woods
+
+DRB_AbstractMaps-v1
+
+ABS_PressGarden2
+ABS_SonicManiaTitleScreen
+
+DRB_Dreturns_v2_noGalf
+
+DR_3CD.wad - 3 Color Drive
+DR_NGHZ.wad - Neo Green Hill
+DR_MMMM.wad - B A N A N A S M M M M
+DR_CHAORUINS.wad - Battle Map
+DR_SHOPPE.wad - Battle Map
+
+Removed: Galf 
+
+DRB_GTKart2_v2.1_edited (This has 5 Cups) 
+
+1. Sunday Cup
+GTK_HighSpeedRing.wad
+GTK_PalmRockRaceway.wad
+GTK_RedRockValley.wad
+GTK_GreenHillCliffs.wad
+GTK_FiveIslands.wad
+GTK_AbloomAlcove.wad
+
+Removed: GTK_Talladega
+
+2. Clubman Cup
+GTK_MapleValley.wad
+GTK_OceanWind.wad
+GTK_BentTwigRaceway.wad
+GTK_DustyJunction.wad
+GTK_TropicalSun.wad
+GTK_CastleWolfenstein.wad
+
+Removed: GTK_CittaDiAria.wad
+
+3. Sega Rally Cup
+
+GTK_SRCDesert.wad
+GTK_SRCForest.wad
+
+4. Kusoge Cup
+
+GTK_ActionGirlzHigh.wad
+
+5. National Cup
+
+Removed: GTK_PentiumExpanse.wad
+
+DRBL_DraftTracksRR_v3
+
+DRTR_BastionIsle.wad
+DRTR_SunkenRemnant.wad
+DRTR_PerilPagoda.wad
+DRTR_OceanHighrise.wad
+DRTR_SnowySpeedpeaks.wad
+
+DRBL_EpicCupRevival-v1.0.1_edited
+
+EPIC_AquaParadiseZone.wad
+EPIC_MegaAquaParadiseZone.wad
+EPIC_AnteStationZone.wad
+EPIC_Entryway.wad
+EPIC_HeavenPassZone.wad
+EPIC_NightlitWoodsZone.wad
+EPIC_CommandFacilityZone.wad
+EPIC_SealedStarPast.wad
+
+Removed: EPIC_StormStationZone.wad
+
+DRBL_HighTensionTraxx_v1.3.4_edited
+
+HTT_ChemicalPlant.wad
+HTT_PrismaticPentagonal.wad
+HTT_Studiopolis.wad
+HTT_PowerPlant.wad
+HTT_MistyMaze.wad
+HTT_MarinaMadness.wad
+HTT_CyberCity.wad
+
+Removed: HTT_FlyingBattery.wad
+
+DRBL_Pro_Pack_X_v1.2.0_edited
+
+PP_SimpleCircuit.wad
+PP_RobotnikRaceway.wad
+PP_CentralCourtyard.wad
+PP_LonelyIsle.wad
+PP_TwinkleVillage.wad
+PP_ShiverthornWoods.wad
+PP_VVDatabase.wad
+PP_BlitzBeach.wad
+PP_BansheeBoardwalk.wad
+PP_GreatGalleon.wad
+PP_CoconutMall.wad
+PP_Battleabout.wad
+
+DRBL_SuperStrikerGP_v1.3_edited
+(Has 5 Cups)
+
+1. Original
+AC_StarDrifterCourse.wad
+AC_VoltageViperChallenge.wad
+AC_SunsetSlalom.wad
+
+2. Battle
+AC_GargoyleCastle.wad
+AC_CentralCityPlaza.wad
+
+3. Arcade Pak
+AC_PolychromePolygonClassic.wad
+AC_DynamiteWildernessClassic.wad
+AC_BigForest.wad
+AC_SnowdustValleyClassic.wad
+AC_RidgeTurnpike.wad
+
+4. Daytona
+TCL_MermaidLake.wad
+AC_DinosaurCanyon.wad
+
+5.NEW Round 3
+AC_AncientKingRoadR.wad
+AC_SRCDesert.wad
+
+Removed: Blast Processsor, AC_BackroomVelocity.wad, AC_RedRageHighway.wad
+
+DRBS_Ruber_Pack-b06.2_lobotomized
+
+RUB_frostycircuit.wad
+RUB_bubblebayside.wad
+RUB_AgariaBotanica.wad
+RUB_SolarStroller.wad
+
+(unsure whats removed, if this is updated, just remove whats missing here)
+
+DRBS_Super_Mario_Kart-LobotomizedV1.3
+
+ABR_Mario_Circuit_3.wad
+ABR_Donut_Plains_3.wad
+ABR_Rainbow_Road.wad
+ABR_Choco_Island_2.wad
+
+(many are removed in this one, just delete all but these if updated) 
+
+DRBS_TanukiPack_v1_edited
+
+TP_MEGA_AuroraHill.wad
+TP_GBALUIGICIRCUIT.wad
+TP_MEGA_StormSanctum.wad
+TP_SealedVault.wad
+
+Removed: TP_MEGA_HauntedHeights.wad, TP_SealedCircuit.wad
+
+DRBS_XandoshisElementalPoweredTracks_v1.3_edited
+
+XEPT_HoneyTrack_Special.wad
+XEPT_ClapYourHands.wad
+XEPT_ShadowPlain.wad
+XEPT_CandyKingdom.wad
+XEPT_XShape.wad
+XEPT_FirstRuins.wad
+XEPT_BloodGoldMine.wad
+
+Removed: XEPT_Bloodsauce.wad
+
+DRBSL_DTDelve_Amber
+
+DIG_Q3DM7.wad
+DIG_CageFight.wad
+DIG_LovelyLab.wad
+DIG_GiantsGate1.wad
+DIG_LavaReef.wad
+DIG_SensSpeedway.wad
+DIG_BotanicBase.wad
+DIG_BurningBone.wad
+
+DRC_SharkPack_v1.1.2
+
+RR_ResortIsland.wad
+RR_StudiopolisAct2.wad
+
+DRL_BushmillCup_v1.02
+
+PZZ_Fabrikenzone.wad
+PZZ_CaesarColiseum.wad
+PZZ_NitroCourt.wad
+PZZ_PINGASBATTLE.wad
+PZZ_MeanBeanMachinations.wad
+PZZ_NoiseTVStudio.wad
+PZZ_MaydaySubmarineDX.wad
+
+drl_demobox-v1
+
+KP_ChampionsPrize-Cargo.wad
+KP_SakuraSerenity.wad
+KP_SunsetArchipelago.wad
+KP_RippleMetrocity.wad
+KP_SapphireFalls.wad
+KP_PollutionPlant.wad
+
+DRL_LunarMaps_v1
+
+DRL_BadgerCoMines.wad
+
+DRS_DoubleGearPack-V2.2_edited
+
+HO9_CASTLECONSENT.wad
+HO9_SPOOKYZONE.wad
+HO9_OMASHU.wad
+HO9_SealedStarCrossing.wad
+HO9_CUTMAN.wad
+
+Removed: HO9_MACHINE.wad
+
+DRSL_lizardpack_v1.5 (has 2 cups) 
+
+1. satellite cup
+
+LZ_raycity.wad
+LZ_mistymaze.wad
+LZ_mountainobsevatory.wad
+LZ_stardustspeedwaygf.wad
+LZ_mystikkecitadel.wad
+
+2. moon cup
+
+LZ_STARRYNIGHT.wad
+
+
