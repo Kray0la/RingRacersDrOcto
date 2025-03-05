@@ -59,7 +59,8 @@ DCFL JumperPak
 earless, kangagunner, marie, haruko
 
 KelPack
-Diggle, Redwood, Laharl,Eunie, Prinny, KT, Dingodile (Crash 4), Toad, Shovel Knight
+Diggle, Redwood, Laharl,Eunie, Fennec, Kasane Teto, Prinny, KT, Angel
+Dingodile (Crash 4), Toad, Shovel Knight
 
 AaronPack
 wario, shantae, jacko, Captain Falcon
@@ -107,8 +108,8 @@ beau,yaov,dancingbunko,takkun
 vespadestroyed,miru
 
 DCFL_KelPack_v5
-Miurasan,Pod 042,Bell,Hakurasan,Redz Jr, Eunies The Bus, Gorilla, DQ Lips,
-Mr Mogan
+Miurasan,Pod 042,Bell,Hakurasan,Redz Jr, Goomblocks, Eunies The Bus, Gorilla, DQ Lips,
+Mr Mogan, Pearto
 
 DCFL_BluPak-v1
 
