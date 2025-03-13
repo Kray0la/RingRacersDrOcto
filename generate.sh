@@ -17,4 +17,4 @@ add_prefix "LUA" "DL*_*"  >> .coreMods.cfg
 add_prefix "SOC" "D_*_*"  >> .coreMods.cfg
 add_prefix "MISC." "Z_D*"  >> .coreMods.cfg
 
-add_prefix "EXTRA CHARACTERS" "EX_D*_*" > .extraCharacters.cfg
+add_prefix "EXTRA ADDONS" "EX_D*_*" > .extraAddons.cfg
