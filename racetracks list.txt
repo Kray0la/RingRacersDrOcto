@@ -9,7 +9,7 @@ DR_BigOMaps_v2
 ParadiseHill
 SeasideHill
 
-DR_CASTrackPak1_V5.5
+DR_CASTrackPak1_V6.6
 
 BreezyVillage
 DelfinoCoast
@@ -18,12 +18,21 @@ FrutigerAeropolis
 HoverCity
 
 
-Removed: DonburiSkyway, SaturnStarway
+Removed: SaturnStarway
 
-DR_CASTrackPak2_V4.0.3
+DR_CASTrackPak2_V6.6
 
 SkyHarbor
 SpiralHill
+MonkeyTarget
+SapphireMountain
+TetrisPalace
+StarmineSpeedway
+
+DR_CASTrackPak3_V6.6
+
+MidnightBay
+NimbusArena
 
 DR_DawnstarGarden
 
@@ -69,6 +78,7 @@ DR_YellowCrocodileCup-v2
 
 YTC_BoulderstoneAlpines
 YTC_Chartreuse_Woods
+YTC_NimbusLake
 
 DRB_AbstractMaps-v1
 
@@ -118,7 +128,22 @@ GTK_ActionGirlzHigh.wad
 
 5. National Cup
 
-TO Be Removed: GTK_PentiumExpanse.wad
+GTK_DendriticDereliction.wad
+
+Removed: GTK_PentiumExpanse.wad
+
+
+DRBL_BushmillCup_v1.2.RC
+
+PZZ_Fabrikenzone.wad
+PZZ_CaesarColiseum.wad
+PZZ_NitroCourt.wad
+PZZ_PINGASBATTLE.wad
+PZZ_MeanBeanMachinations.wad
+PZZ_NoiseTVStudio.wad
+PZZ_MaydaySubmarineDX.wad
+PZZ_SchottischeBurg.wad
+PZZ_OctopusFestival.wad
 
 DRBL_DraftTracksRR_v4
 
@@ -153,20 +178,7 @@ HTT_CyberCity.wad
 
 Removed: HTT_FlyingBattery.wad
 
-DRBL_Pro_Pack_X_v1.2.0_edited
 
-PP_SimpleCircuit.wad
-PP_RobotnikRaceway.wad
-PP_CentralCourtyard.wad
-PP_LonelyIsle.wad
-PP_TwinkleVillage.wad
-PP_ShiverthornWoods.wad
-PP_VVDatabase.wad
-PP_BlitzBeach.wad
-PP_BansheeBoardwalk.wad
-PP_GreatGalleon.wad
-PP_CoconutMall.wad
-PP_Battleabout.wad
 
 DRBL_SuperStrikerGP_v1.3_edited
 (Has 5 Cups)
@@ -197,19 +209,32 @@ AC_SRCDesert.wad
 
 Removed: Blast Processsor, AC_BackroomVelocity.wad, AC_RedRageHighway.wad
 
-DRBS_Ruber_Pack-b06.2_lobotomized
+DRBLS_Pro_Pack_X_v2.0.2
 
-RUB_frostycircuit.wad
-RUB_bubblebayside.wad
-RUB_AgariaBotanica.wad
-RUB_SolarStroller.wad
+PP_SimpleCircuit.wad
+PP_RobotnikRaceway.wad
+PP_CentralCourtyard.wad
+PP_LonelyIsle.wad
+PP_TwinkleVillage.wad
+PP_ShiverthornWoods.wad
+PP_VVDatabase.wad
+PP_BlitzBeach.wad
+PP_BansheeBoardwalk.wad
+PP_GreatGalleon.wad
+PP_CoconutMall.wad
+PP_Battleabout.wad
+PP_AzureGarden.wad
+PP_FestivalNight.wad
+PP_Sus.wad
+PP_PortAurora.wad
+PP_SeaStadium.wad
+PP_AngelGate.wad
+PP_HeavenPass.wad
+PP_VVGarden.wad
+PP_VVDatabaseR.wad
+PP_VVGardenR.wad
 
-(unsure whats removed, if this is updated, just remove whats missing here)
-DRBSL_Ruber_MiracleCup-b07
-
-DRBSL_Ruber_Wonder_Cup-b07
-
-(Above Are the Ruber Pack, list what's inside them later)
+Removed: Roundabout.wad
 
 DRBS_Super_Mario_Kart-LobotomizedV1.3
 
@@ -252,21 +277,27 @@ DIG_SensSpeedway.wad
 DIG_BotanicBase.wad
 DIG_BurningBone.wad
 
+DRBSL_Ruber_MiracleCup-b07
+
+RUB_SolarStroller.wad
+RUB_pleasurecastle.wad
+RUB_EggQuarters.wad
+RUB_DeathChamberR.wad
+
+DRBSL_Ruber_Wonder_Cup-b07 
+
+RUB_frostycircuit.wad
+RUB_bubblebayside.wad
+RUB_AgariaBotanica.wad
+
+Removed: RUB_wishingwonders
+
+
 DRC_SharkPack_v1.1.2
 
 RR_ResortIsland.wad
 RR_StudiopolisAct2.wad
 
-DRBL_BushmillCup_v1.2.RC
-
-PZZ_Fabrikenzone.wad
-PZZ_CaesarColiseum.wad
-PZZ_NitroCourt.wad
-PZZ_PINGASBATTLE.wad
-PZZ_MeanBeanMachinations.wad
-PZZ_NoiseTVStudio.wad
-PZZ_MaydaySubmarineDX.wad
-PZZ_OctopusFestival.wad
 
 drl_demobox-v1
 
@@ -304,5 +335,11 @@ LZ_mystikkecitadel.wad
 2. moon cup
 
 LZ_STARRYNIGHT.wad
+
+DRSL_SealedStarGP_v1.01
+
+Chaos Emerald Sealed Stars
+Super Emerald Sealed Stars
+The Sealed Stars Within
 
 
