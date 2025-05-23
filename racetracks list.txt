@@ -9,7 +9,7 @@ DR_BigOMaps_v2
 ParadiseHill
 SeasideHill
 
-DR_CASTrackPak1_V4.0.3_edited
+DR_CASTrackPak1_V5.5
 
 BreezyVillage
 DelfinoCoast
@@ -65,7 +65,7 @@ SBS_TourmalineTerrain
 
 Removed: Bubblegum, SBS_SolarStation
 
-DR_YellowCrocodileCup-v1
+DR_YellowCrocodileCup-v2
 
 YTC_BoulderstoneAlpines
 YTC_Chartreuse_Woods
@@ -85,7 +85,7 @@ DR_SHOPPE.wad - Battle Map
 
 Removed: Galf 
 
-DRB_GTKart2_v2.1_edited (This has 5 Cups) 
+DRB_GTKart2_v2.21_edited (This has 5 Cups) 
 
 1. Sunday Cup
 GTK_HighSpeedRing.wad
@@ -118,9 +118,9 @@ GTK_ActionGirlzHigh.wad
 
 5. National Cup
 
-Removed: GTK_PentiumExpanse.wad
+TO Be Removed: GTK_PentiumExpanse.wad
 
-DRBL_DraftTracksRR_v3
+DRBL_DraftTracksRR_v4
 
 DRTR_BastionIsle.wad
 DRTR_SunkenRemnant.wad
@@ -128,7 +128,7 @@ DRTR_PerilPagoda.wad
 DRTR_OceanHighrise.wad
 DRTR_SnowySpeedpeaks.wad
 
-DRBL_EpicCupRevival-v1.0.1_edited
+DRBL_EpicCupRevival-v1.1_edited
 
 EPIC_AquaParadiseZone.wad
 EPIC_MegaAquaParadiseZone.wad
@@ -205,6 +205,11 @@ RUB_AgariaBotanica.wad
 RUB_SolarStroller.wad
 
 (unsure whats removed, if this is updated, just remove whats missing here)
+DRBSL_Ruber_MiracleCup-b07
+
+DRBSL_Ruber_Wonder_Cup-b07
+
+(Above Are the Ruber Pack, list what's inside them later)
 
 DRBS_Super_Mario_Kart-LobotomizedV1.3
 
@@ -252,7 +257,7 @@ DRC_SharkPack_v1.1.2
 RR_ResortIsland.wad
 RR_StudiopolisAct2.wad
 
-DRL_BushmillCup_v1.02
+DRBL_BushmillCup_v1.2.RC
 
 PZZ_Fabrikenzone.wad
 PZZ_CaesarColiseum.wad
@@ -261,6 +266,7 @@ PZZ_PINGASBATTLE.wad
 PZZ_MeanBeanMachinations.wad
 PZZ_NoiseTVStudio.wad
 PZZ_MaydaySubmarineDX.wad
+PZZ_OctopusFestival.wad
 
 drl_demobox-v1
 
