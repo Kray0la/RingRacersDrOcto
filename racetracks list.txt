@@ -38,7 +38,7 @@ DR_DawnstarGarden
 
 KP_DawnstarGarden
 
-DR_FrostMaps
+DR_FrostMaps-v4
 
 LeafForest
 HotCrater
