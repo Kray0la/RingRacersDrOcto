@@ -74,6 +74,12 @@ omochao, ashe
 DCFL_SharkGuy_pack_v5.0
 martzy, shark, gogo, kaiser greedy, sunny 
 
+DCFL_SuperMarioKartCollection_v2
+Daisy, Peach, Hammer Bro
+
+DCFL_bepiPack_v4
+Plok, Patricia, Joke Explainer, Eid, Curly Brace, Smol Nozomi, Somari, Turkatron,Remelia,Elphet, Noise,
+Rotom, Shantae,The Voice
 
 
 
@@ -118,6 +124,8 @@ red, green, purple, yellow puyo
 DCFL_SharkGuy_pack_v5.0
 dimby, rotobaga, sound the animal, oruto 
 
+DCFL_bepiPack_v4
+Apple Teto, Frog, Voreon, Scatt,Plant, Bloop, Golden sigma, Chud5
 
 
 
